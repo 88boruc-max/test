@@ -1,0 +1,91 @@
+* {
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	font-family: 'Ubuntu', sans-serif;
+	background-color: royalblue;
+	text-transform: uppercase;
+}
+
+
+
+
+
+
+// ------------------------------------------------------
+// git init - tworzy puste repo
+// git add .  - dodaje wszystkie pliki
+// git commit  -m  "added website"
+// git branch -M main
+// git remote add origin https://github.com/88boruc-max/test.git
+// git push origin main - wysyła repo na gitHuba, 
+// git pull origin main - pobiera repo z gitHuba,
+// git remote -v 
+// git remote set-url origin git@github.com:37boruc/test_ssh.git
+
+-------------------------------------------------------
+// ls -
+// pwd -
+// cd
+// cd ..
+// cd ../..
+// shift + insert
+// mkdir
+// touch plik.txt
+// --------------------------------------------------------
+// git init - tworzy puste repo
+// git add [nazwa pliku] -dodaje konkretny plik
+// git add index.html
+
+// git add .  - dodaje wszystkie pliki
+// git commit  -m  "krótki opis zmian, które zrobiliśmy (po angielsku) "
+
+// git status - sprawdzamy status plików w repo
+//---------------------------------------------------------
+// git log - przeglądamy logi, co realizowanu po kolei
+// git checkout + nr logu -
+//---------------------------------------------------------
+// git branch - pokazuje gdzie jesteśmy - który branch
+// git branch newcolors - tworzy nowy branch, nie przenosi automatycznie do niego
+// git checkout -b newcolors  -tworzy nowy branch o nazwie newcolors i przenosi do niego
+
+// git merge myidea - łączy branch myidea do master, jeśli jesteśmy na master
+
+// git push origin master  - wypycha, wysyła repo na gitHuba, dopiero po połączeniu z GitHubem
+// git pull origin main - pobiera repo z gitHuba,
+// git branch test - tworzy nowy branch, nie przenosi automatycznie do niego
+// git branch -d test - usuwa branch test
+
+// ------------
+// do zadania
+
+// git init
+// git add .
+// git commit  -m  "krótki opis zmian (po angielsku) "
+// git status
+// git log
+// git branch
+// git branch -d test
+// git merge myidea
+// -->
+
+// -------------------
+// do zadania
+// git init
+// git add .
+// git commit  -m  "krótki opis zmian (po angielsku) "
+// git status
+// git branch -M main
+// git push -u origin main   wysyła na gitHub
+
+//  --------------------------
+// git checkout + nr logu -
+// git checkout -b newcolors  -tworzy nowy branch o nazwie newcolors i przenosi do niego
+// git checkout  newcolors  - przenosi do tego brancha - newcolors
